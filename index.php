@@ -1,9 +1,9 @@
 <?php
 // config.php
 $host = 'localhost';
-$dbname = 'cinema_db';
-$username = 'root';
-$password = ''; // для XAMPP/WAMP пароль пустой, для MAMP 'root'
+$dbname = 'project_Fedorov';
+$username = 'admin';
+$password = 'admin'; // для XAMPP/WAMP пароль пустой, для MAMP 'root'
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
